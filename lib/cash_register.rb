@@ -12,7 +12,7 @@
     @total += price*quantity 
     quantity.times do 
     items << title 
-    end 
+  end 
     @last_transaction_amount = price*quantity 
   end
   def  apply_discount() 
@@ -33,5 +33,5 @@
   #  binding.pry 
   @total -= @last_transaction_amount 
   #self.total -= self.last_transaction_amount 
-  end 
+    end 
   end 
