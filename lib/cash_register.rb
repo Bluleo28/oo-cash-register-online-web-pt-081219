@@ -25,7 +25,8 @@ From Sydnee Sampson to Everyone: (11:26 PM)
       "There is no discount to apply." 
     end 
   end 
-  def items    
+  def items  
     @items 
   end 
+end 
   # @total -= @last_transaction_amount def void_last_transaction  # binding.pry  @total -= @last_transaction_amount   #self.total -= self.last_transaction_amount end end 
