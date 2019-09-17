@@ -20,7 +20,8 @@
       @discount =  (@total * @with_discount)/100 
       @total -= @discount        
       "After the discount, the total comes to $
-      #{@total}."     else 
+      #{@total}." 
+    else 
       "There is no discount to apply." 
     end 
   end 
