@@ -1,4 +1,3 @@
-From Sydnee Sampson to Everyone: (11:26 PM)
  class CashRegister  
   attr_accessor :total, :items, :with_discount, :last_transaction_amount 
   def initialize(with_discount = 0)
