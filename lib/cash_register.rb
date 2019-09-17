@@ -31,7 +31,7 @@
   # @total -= @last_transaction_amount
   def void_last_transaction 
   #  binding.pry 
-   @total -= @last_transaction_amount 
-   #self.total -= self.last_transaction_amount 
+  @total -= @last_transaction_amount 
+  #self.total -= self.last_transaction_amount 
   end 
   end 
