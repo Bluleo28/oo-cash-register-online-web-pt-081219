@@ -12,7 +12,7 @@ From Sydnee Sampson to Everyone: (11:26 PM)
   def add_item(title,price,quantity = 1) 
     @total += price*quantity 
     quantity.times do 
-      items << title 
+    items << title 
     end 
     @last_transaction_amount = price*quantity 
   end
@@ -28,5 +28,5 @@ From Sydnee Sampson to Everyone: (11:26 PM)
   def items  
     @items 
   end 
-end 
+end
   # @total -= @last_transaction_amount def void_last_transaction  # binding.pry  @total -= @last_transaction_amount   #self.total -= self.last_transaction_amount end end 
